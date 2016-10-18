@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<form action="#" method="get" name="user-name">
+    <fieldset>
+        <legend align="center">Important Information </legend>
+        <label for="username">UserName</label>
+<input type="text" name="username" id="username"><br>
+        <label for="password">Password</label>
+<input type="password" name="password" id="password"><br>
+<input type="radio" name="gender" value="Male" id="Male">  <label for="Male">Male</label><br>
+<input type="radio" name="gender" value="Female" id="Female">  <label for="Female">Female</label><br>
+<input type="checkbox" name="food" value="Grapes" id="Grapes">  <label for="Grapes">Grapes</label><br>
+<input type="checkbox" name="food" value="Banana" id="Banana">  <label for="Banana">Banana</label><br>
+<input type="checkbox" name="food" value="Mango" id="Mango">  <label for="Mango">Mango</label><br>
+<input type="checkbox" name="food" value="Appricot" id="Apple">  <label for="Apple">Apple</label><br>
+    </fieldset>
+    <br>
+    <fieldset>
+    <legend align="center">Optional Items</legend>
+        <label for="essay">We want to know more about<br>Write a short essay<br>
+        </label>
+    <textarea name="essay" rows="10" cols="30" id="essay"></textarea><br>
+   <label for="continent">Where are you from</label><br>
+        <select name="continent" id="continent">
 
+        <option>Africa</option>
+         <option>Australia</option>
+         <option>Asia</option>
+       <optgroup label="Americas">
+       <option>North America</option>
+         <option>South America</option>
+       </optgroup>
+         <option>Antartica</option>
+    </select>
+    </fieldset><br>
+    <input type="submit" value="option"><br>
+
+</form>
 </body>
 </html>
